@@ -1,0 +1,16 @@
+/* frontend/src/components/MyTrips.css */
+
+.empty-state img {
+  width: 100px;
+  height: 100px;
+}
+
+.empty-state h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.empty-state p {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
