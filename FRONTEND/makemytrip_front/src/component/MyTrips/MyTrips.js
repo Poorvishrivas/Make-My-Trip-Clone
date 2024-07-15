@@ -5,7 +5,7 @@ import { Nav, Tab, Container, Row, Col } from "react-bootstrap";
 
 const MyTrips = () => {
   return (
-    <Container style={{ backgroundColor: "lightBlue" }} className="mt-5">
+    <Container className="container-background mt-5">
       <Tab.Container defaultActiveKey="FlightBookings">
         <Row className="justify-content-center">
           <Col md={8}>
@@ -38,14 +38,17 @@ const MyTrips = () => {
                     alt="Empty state"
                     className="img-fluid my-4"
                   /> */}
-                  <h5>Looks empty, you've no FlightBookings bookings.</h5>
+                  <h5>Looks empty, you've no Flights Bookings.</h5>
                   <p>When you book a trip, you will see your itinerary here.</p>
                   {/* <Button variant="primary">PLAN A TRIP</Button> */}
                 </div>
               </Tab.Pane>
               <Tab.Pane eventKey="HotelBookings">
                 <div className="empty-state">
-                  <h5>No HotelBookings bookings.</h5>
+                  <h5>Looks empty, you've no Hotel Bookings.</h5>
+                  <p>
+                    When you book a hotel, you will see your itinerary here.
+                  </p>
                 </div>
               </Tab.Pane>
               <Tab.Pane eventKey="completed">

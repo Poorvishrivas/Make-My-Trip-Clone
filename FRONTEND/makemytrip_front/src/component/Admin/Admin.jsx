@@ -8,7 +8,7 @@ const Admin = () => {
   const navigate = useNavigate();
 
   return (
-    <Container style={{ backgroundColor: "lightBlue" }} className="mt-5">
+    <Container className="container-background mt-5">
       <Tab.Container defaultActiveKey="FlightBookings">
         <Row className="justify-content-center">
           <Col md={8}>
@@ -23,11 +23,6 @@ const Admin = () => {
                   <i className="bi bi-x-circle"></i> Hotel Bookings
                 </Nav.Link>
               </Nav.Item>
-              {/* <Nav.Item>
-                <Nav.Link eventKey="completed">
-                  <i className="bi bi-check-circle"></i> COMPLETED
-                </Nav.Link>
-              </Nav.Item> */}
             </Nav>
           </Col>
         </Row>
@@ -36,11 +31,6 @@ const Admin = () => {
             <Tab.Content>
               <Tab.Pane eventKey="FlightBookings">
                 <div className="empty-state">
-                  {/* <img
-                    src="https://via.placeholder.com/150"
-                    alt="Empty state"
-                    className="img-fluid my-4"
-                  /> */}
                   <h5>Flights Booking Management</h5>
                   {/* <p>When you book a trip, you will see your itinerary here.</p> */}
                   {/* <Button variant="primary">PLAN A TRIP</Button> */}
