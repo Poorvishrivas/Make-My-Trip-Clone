@@ -41,25 +41,25 @@ const Admin = () => {
                     alt="Empty state"
                     className="img-fluid my-4"
                   /> */}
-                  <h5>Looks empty, you've no FlightBookings bookings.</h5>
-                  <p>When you book a trip, you will see your itinerary here.</p>
+                  <h5>Flights Booking Management</h5>
+                  {/* <p>When you book a trip, you will see your itinerary here.</p> */}
                   {/* <Button variant="primary">PLAN A TRIP</Button> */}
                   <Button
                     variant="primary"
                     onClick={() => navigate("/Admin/FlightList")}
                   >
-                    Add New Hotel
+                    Flight Tickets
                   </Button>{" "}
                 </div>
               </Tab.Pane>
               <Tab.Pane eventKey="HotelBookings">
                 <div className="empty-state">
-                  <h5></h5>
+                  <h5>Hotels Booking Management</h5>
                   <Button
                     variant="primary"
                     onClick={() => navigate("/admin/hotel")}
                   >
-                    Add New Hotel
+                    Hotels Booking
                   </Button>{" "}
                 </div>
               </Tab.Pane>
